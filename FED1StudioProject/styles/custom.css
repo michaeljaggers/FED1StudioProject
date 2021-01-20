@@ -71,20 +71,21 @@ header nav ul {
 }
 
 header nav ul li {
+    height: 26px;
     display: inline-block;
+    border-bottom: 2px solid #a80000;
+    transition: all 0.5s ease;
 }
 
 header nav a {
     color: #FFF;
     font-size: 1.25em;
     text-decoration: none;
-    padding: 5px 10px;
-    border-bottom: 2px solid #a80000;
-    transition: all 0.5s ease;
+    padding: 5px 10px 8px 10px;
 }
 
-header nav a:hover,
-header nav a:active {
+header nav li:hover,
+header nav li:active {
     border-bottom: 2px solid #333;
 }
 
@@ -95,7 +96,7 @@ main {
 }
 
 main h2 {
-    text-decoration: underline;
+
 }
 
 footer {
