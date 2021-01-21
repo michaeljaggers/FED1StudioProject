@@ -20,7 +20,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
 }
 
 h1,
@@ -81,12 +80,6 @@ header nav {
     position: absolute;
     left: 0;
     bottom: 0;
-}
-
-@media (max-width: 959px) {
-    header nav {
-        display: none;
-    }
 }
 
 header nav ul {
@@ -157,7 +150,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 0 50px;
     color: #FFF;
     height: 80px;
 }
@@ -191,10 +183,11 @@ footer nav a {
 
 footer nav a:hover,
 footer nav a:active {
-    color: #CCC;
+    color: #DDD;
 }
 
 .copyright {
     font-size: 12px;
     font-weight: 300;
+    margin-left: 20px;
 }
