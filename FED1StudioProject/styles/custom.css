@@ -1,4 +1,13 @@
-﻿a {
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Source+Sans+Pro&display=swap');
+
+/*
+    Google Fonts
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    300, 400, 700
+*/
+
+a {
     color: #a80000;
 }
 
@@ -7,7 +16,16 @@ body {
     padding: 0;
     color: #222;
     background-color: lightgray;
-    font-family: Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 header {
@@ -47,6 +65,7 @@ header p {
     color: #F2F2F2;
     font-size: 14px;
     font-style: italic;
+    font-weight: 300;
     height: 50px;
     position: absolute;
     top: 80px;
@@ -80,6 +99,7 @@ header nav ul li {
 header nav a {
     color: #FFF;
     font-size: 1.25em;
+    font-weight: 700;
     text-decoration: none;
     padding: 5px 10px 8px 10px;
 }
@@ -144,4 +164,5 @@ footer nav a:active {
 
 .copyright {
     font-size: 12px;
+    font-weight: 300;
 }
