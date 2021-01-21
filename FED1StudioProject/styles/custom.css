@@ -7,6 +7,10 @@
     300, 400, 700
 */
 
+.center-text {
+    text-align: center;
+}
+
 a {
     color: #a80000;
 }
@@ -131,10 +135,14 @@ header nav ul li.currentPage a:active {
     color: #FFF;
 }
 
+.wrapper {
+    margin: 0 20px;
+}
 main {
+    max-width: 960px;
     background-color: #F7F7F7;
     box-shadow: 12px 0 8px -12px #BBB, -12px 0 8px -12px #BBB;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
 }
 
@@ -147,8 +155,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #111;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     color: #FFF;
     height: 80px;
@@ -190,4 +196,13 @@ footer nav a:active {
     font-size: 12px;
     font-weight: 300;
     margin-left: 20px;
+}
+
+/* classes.html */
+.classes-grid {
+
+}
+
+.card {
+    border: 1px solid #DDD;
 }

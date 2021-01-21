@@ -70,6 +70,12 @@
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="images\class1.jpg" />
+    <Content Include="images\class2.jpg" />
+    <Content Include="images\class3.jpg" />
+    <Content Include="images\class4.jpg" />
+    <Content Include="images\class5.jpg" />
+    <Content Include="images\class6.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\site-bg.jpg" />
     <Content Include="styles\custom.css" />
