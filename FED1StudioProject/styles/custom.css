@@ -319,8 +319,8 @@ footer nav a:active {
 }
 
 /* classes.html */
-.classes-grid {
-    
+.classes-grid a {
+    color: inherit;
 }
 
 .card {
