@@ -7,9 +7,11 @@
     <meta name="keywords" content="graphic design, training, academy, education">
     <meta name="author" content="W. Michael Jaggers">
     <title>KCDI | Team</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="styles/custom.css" rel="stylesheet" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -50,17 +52,17 @@
                     <a name="leadership"></a>
                     <h2>Leadership</h2>
                     <div class="teamMember">
-                        <img src="images/staff/Robert-Godwin.jpg" alt="Robert Godwin Portrait" />
+                        <img class="thumb" src="images/staff/Robert-Godwin.jpg" alt="Robert Godwin Portrait" />
                         <p class="memberName">Robert Godwin</p>
                         <p class="memberTitle">Company President</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Jurica-Koletic.jpg" alt="Jurica Koletić Portrait" />
+                        <img class="thumb" src="images/staff/Jurica-Koletic.jpg" alt="Jurica Koletić Portrait" />
                         <p class="memberName">Jurica Koletić</p>
                         <p class="memberTitle">Executive Leadership</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Roman-Akhmerov.jpg" alt="Roman Akhmerov Portrait" />
+                        <img class="thumb" src="images/staff/Roman-Akhmerov.jpg" alt="Roman Akhmerov Portrait" />
                         <p class="memberName">Roman Akhmerov</p>
                         <p class="memberTitle">Executive Leadership</p>
                     </div>
@@ -69,17 +71,17 @@
                     <a name="sales"></a>
                     <h2>Sales</h2>
                     <div class="teamMember">
-                        <img src="images/staff/Joseph-Gonzalez.jpg" alt="Joseph Gonzalez Portrait" />
+                        <img class="thumb" src="images/staff/Joseph-Gonzalez.jpg" alt="Joseph Gonzalez Portrait" />
                         <p class="memberName">Joseph Gonzalez</p>
                         <p class="memberTitle">Sales Lead</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Rui-Silvestre.jpg" alt="Rui Silvestre Portrait" />
+                        <img class="thumb" src="images/staff/Rui-Silvestre.jpg" alt="Rui Silvestre Portrait" />
                         <p class="memberName">Rui Silvestre</p>
                         <p class="memberTitle">Salesperson</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Daniel-Rigdon.jpg" alt="Daniel Rigdon Portrait" />
+                        <img class="thumb" src="images/staff/Daniel-Rigdon.jpg" alt="Daniel Rigdon Portrait" />
                         <p class="memberName">Daniel Rigdon</p>
                         <p class="memberTitle">Salesperson</p>
                     </div>
@@ -88,17 +90,17 @@
                     <a name="administration"></a>
                     <h2>Administration</h2>
                     <div class="teamMember">
-                        <img src="images/staff/Alex-Iby.jpg" alt="Alex Iby Portrait" />
+                        <img class="thumb" src="images/staff/Alex-Iby.jpg" alt="Alex Iby Portrait" />
                         <p class="memberName">Alex Iby</p>
                         <p class="memberTitle">Operations Lead</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Ayo-Ogunseind.jpg" alt="Ayo-Ogunseind Portrait" />
+                        <img class="thumb" src="images/staff/Ayo-Ogunseind.jpg" alt="Ayo-Ogunseind Portrait" />
                         <p class="memberName">"Ayo-Ogunseind</p>
                         <p class="memberTitle">Support Staff</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Jack-Finnigan.jpg" alt="Jack Finnigan Portrait" />
+                        <img class="thumb" src="images/staff/Jack-Finnigan.jpg" alt="Jack Finnigan Portrait" />
                         <p class="memberName">Jack Finnigan</p>
                         <p class="memberTitle">Support Staff</p>
                     </div>
@@ -107,17 +109,17 @@
                     <a name="instructors"></a>
                     <h2>Instructors</h2>
                     <div class="teamMember">
-                        <img src="images/staff/Justin-Chen.jpg" alt="Justin Chen Portrait" />
+                        <img class="thumb" src="images/staff/Justin-Chen.jpg" alt="Justin Chen Portrait" />
                         <p class="memberName">Justin Chen</p>
                         <p class="memberTitle">Lead Technical Instructor</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Rachel-McDermott.jpg" alt="Rachel McDermott Portrait" />
+                        <img class="thumb" src="images/staff/Rachel-McDermott.jpg" alt="Rachel McDermott Portrait" />
                         <p class="memberName">Rachel McDermott</p>
                         <p class="memberTitle">Technical Instructor</p>
                     </div>
                     <div class="teamMember">
-                        <img src="images/staff/Warren-Wong.jpg" alt="Warren Wong Portrait" />
+                        <img class="thumb" src="images/staff/Warren-Wong.jpg" alt="Warren Wong Portrait" />
                         <p class="memberName">Warren Wong</p>
                         <p class="memberTitle">Technical Instructor</p>
                     </div>
@@ -125,6 +127,10 @@
             </section>
 
             <div class="clear"></div>
+            <div id="lightbox-container">
+                <p>Click anywhere to close</p>
+                <div id="lightbox-content"></div>
+            </div>
         </main>
     </div>
     <footer>
@@ -145,5 +151,8 @@
             </ul>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

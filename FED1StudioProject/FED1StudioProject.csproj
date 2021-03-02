@@ -93,6 +93,7 @@
     <Content Include="images\staff\Rui-Silvestre.jpg" />
     <Content Include="images\staff\Warren-Wong.jpg" />
     <Content Include="images\teachers.jpg" />
+    <Content Include="scripts\main.js" />
     <Content Include="styles\custom.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />
@@ -110,9 +111,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
