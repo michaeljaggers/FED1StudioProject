@@ -1,6 +1,12 @@
 ﻿$(document).ready(function () {
-    $('#myTable').DataTable();
-
+    //Tables
+    $('#classTable1').DataTable();
+    $('#classTable2').DataTable();
+    $('#classTable3').DataTable();
+    $('#classTable4').DataTable();
+    $('#classTable5').DataTable();
+    $('#classTable6').DataTable();
+    //Lightbox
     $(".thumb").on("click", function () {
         
         var imgSrc = $(this).attr("src");
