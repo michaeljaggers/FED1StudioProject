@@ -93,6 +93,8 @@
     <Content Include="images\staff\Rui-Silvestre.jpg" />
     <Content Include="images\staff\Warren-Wong.jpg" />
     <Content Include="images\teachers.jpg" />
+    <Content Include="scripts\html5shiv-printshiv.min.js" />
+    <Content Include="scripts\html5shiv.min.js" />
     <Content Include="scripts\main.js" />
     <Content Include="styles\custom.css" />
     <Content Include="team.html" />
